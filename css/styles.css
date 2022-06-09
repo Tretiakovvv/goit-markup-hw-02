@@ -1,0 +1,113 @@
+/* цвет основного текста #757575 */
+/* цвет вторичного текста rgba(33, 33, 33, 1) */
+/* основной фон #E5E5E5;*/
+/* вторичный фон #2F303A */
+/* акцент  #2196F3*/
+
+:root {
+  --title-text-color: #757575;
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --secondary-color: #2f303a;
+  --button-color: #ffffff;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo:focus,
+.logo:hover {
+  color: var(--accent-color);
+}
+.logo-secondary {
+  color: #000000;
+}
+.logo-secondary:focus .logo-secondary:hover {
+  color: #000000;
+}
+/* Навигация */
+
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.nav-link:hover {
+  color: var(--accent-color);
+}
+/* Адрес */
+.header-list {
+  list-style: none;
+}
+.header-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+}
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-link:hover {
+  color: var(--accent-color);
+}
+/* основной контент */
+/* ГЕРОЙ */
+.hero {
+  background-color: var(--secondary-color);
+}
+.hero-title {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.primary-button {
+  background-color: var(--accent-color);
+  color: var(--button-color);
+  font-family: inherit;
+  border: none;
+}
+/* Приемущества сайта */
+.main-list {
+  list-style: none;
+}
+.main-title {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
+/* чем занимается фирма */
+
+.work-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work-list {
+  list-style: none;
+}
