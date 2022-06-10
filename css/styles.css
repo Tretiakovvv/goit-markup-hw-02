@@ -11,6 +11,7 @@
   --background-color: #ffffff;
   --secondary-color: #2f303a;
   --button-color: #ffffff;
+  --portfolio-title: #212121;
 }
 body {
   background-color: var(--background-color);
@@ -26,6 +27,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .logo:focus,
 .logo:hover {
@@ -34,22 +36,27 @@ body {
 .logo-secondary {
   color: #000000;
 }
-.logo-secondary:focus .logo-secondary:hover {
+.logo-secondary:focus,
+.logo-secondary:hover {
   color: #000000;
 }
 /* Навигация */
 
-.nav-list {
+.site-nav {
   list-style: none;
 }
-.nav-link {
+.link {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.nav-link:focus,
-.nav-link:hover {
+.link:focus,
+.link:hover {
+  color: var(--accent-color);
+}
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -62,12 +69,13 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.1;
+  text-decoration: none;
 }
 .header-link:focus,
 .header-link:hover {
   color: var(--accent-color);
 }
- 
+
 /* основной контент */
 /* ГЕРОЙ */
 .hero {
@@ -86,10 +94,10 @@ body {
   color: var(--button-color);
   font-family: inherit;
   border: none;
-  
+  cursor: pointer;
 }
 .primary-button:focus,
-.primary-button:hover{
+.primary-button:hover {
   color: var(--button-color);
 }
 /* Приемущества сайта */
@@ -115,31 +123,88 @@ body {
   list-style: none;
 }
 /* Наша команда */
-.team{
-  background-color: #F5F4FA;
+.team {
+  background-color: #f5f4fa;
 }
-.team-title{
-
-font-size: 36px;
-line-height:1.2;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.team-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.team-list{
-list-style: none;
+.team-list {
+  list-style: none;
 }
-.team-name{
-font-weight: 500;
-font-size: 16px;
-line-height:1.2;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
-.team-text{
-font-size: 16px;
-line-height:1.2;
-text-align: center;
-letter-spacing: 0.03em;
+.team-text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+/* Подвал сайта */
+.logo-footer {
+  color: var(--background-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-address {
+  color: white;
+  font-style: normal;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+.footer-link:focus,
+.footer-link:hover {
+  color: var(--accent-color);
+}
+/* Страница портфолио */
+/* Секция кнопки */
+.secondary-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border: none;
+  cursor: pointer;
+}
+.secondary-button:focus,
+.secondary-button:hover {
+  background-color: var(--accent-color);
+  color: var(--button-color);
+}
+/* Секция проекты */
+.projects-list {
+  list-style: none;
+  box-sizing: border-box;
+}
+.projects-link {
+  background-color: #eeeeee;
+  text-decoration: none;
+}
+.projects-title {
+  color: var(--portfolio-title);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-text {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+/* Футер */
