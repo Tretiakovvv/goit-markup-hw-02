@@ -12,7 +12,7 @@
   --secondary-color: #2f303a;
   --button-color: #ffffff;
   --portfolio-title: #212121;
-  --primary-button-hover-focus:#188ce8;
+  --primary-button-hover-focus: #188ce8;
 }
 body {
   background-color: var(--background-color);
@@ -99,7 +99,7 @@ body {
 }
 .primary-button:focus,
 .primary-button:hover {
-  color:var(--primary-button-hover-focus) ;
+  background-color: var(--primary-button-hover-focus);
 }
 /* Приемущества сайта */
 .main-list {
@@ -109,7 +109,7 @@ body {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
+  
 }
 /* чем занимается фирма */
 
@@ -127,7 +127,7 @@ body {
 .team {
   background-color: #f5f4fa;
 }
-.team-photo{
+.team-photo {
   background-color: var(--background-color);
 }
 .team-title {
@@ -140,8 +140,8 @@ body {
 .team-list {
   list-style: none;
 }
-.worker{
-  background-color:var(--background-color)
+.worker {
+  background-color: var(--background-color);
 }
 .team-name {
   font-weight: 500;
@@ -179,7 +179,7 @@ body {
 }
 /* Страница портфолио */
 /* Секция кнопки */
-.projects-buttons{
+.projects-buttons {
   list-style: none;
 }
 .secondary-button {
