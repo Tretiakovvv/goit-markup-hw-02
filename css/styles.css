@@ -20,7 +20,6 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.7;
 }
 /* logo */
 .logo {
@@ -174,11 +173,13 @@ letter-spacing: 0.06em;
 .footer-address {
   color: white;
   font-style: normal;
+  line-height: 1.7;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   text-decoration: none;
+  line-height: 1.7;
 }
 .footer-link:focus,
 .footer-link:hover {
