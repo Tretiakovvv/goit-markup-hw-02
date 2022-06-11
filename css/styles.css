@@ -115,7 +115,8 @@ letter-spacing: 0.06em;
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.1;
-  
+  text-transform: uppercase;
+
 }
 /* чем занимается фирма */
 
